@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Φορμες html</title>
+  <style>
+  <div>
+  {   
+  width:50%;
+  background-color:light-grey;
+  padding:5px;
+  border-radius:4px;
+  }  
+  label{
+  font-size:14px;
+ font-color:blue;
+  }  
+   </style>
+</head>
+<body>
+<div>
+<form>
+ <label for="fname">Ονοματεπώνυμο</label>
+ <br>
+  <input type="text" id="fname" name="fullname" placeholder="το ονοματεπώνυμό σας">
+  <br>
+  <label for="email">Το Email σας:</label><br>
+  <input type="email" id="email" name="email"
+  placeholder="το e-mail σας">
+  <br>
+ <label for="pword">Συνθηματικο:</label><br>
+  <input type="password" id="pword" name="dob">
+  <br>
+  <label for="birthday">Hμερομηνία γέννησης:</label><br>
+  <input type="date" id="birthday" name="το όνομά σας">
+  <br> Έτος αποφοίτησης:
+  <br>
+  <input type="range" name="Ετος αποφοίτησης" min="1950" max="2010">
+
+    <br>Φύλο:
+  <br>
+  <input type="radio"
+  name="genderOption"
+  value="male">Male
+  
+  <input type="radio"
+  name="genderOption"
+  value="female">Female
+  
+  <input type="radio"
+  name="genderOption"
+  value="undisclosed">Undisclosed
+  
+  <br> Race
+  <br>
+  <input type="checkbox" name="race" value="Europe">Ευρώπη
+  <input type="checkbox" name="race" value="Africa">Αφρική
+  <input type="checkbox" name="race" value="Asian">Ασία
+  <input type="checkbox" name="race" value="Ameriki">Αμερική
+  <br>
+  <br> Αγαπημένο χρώμα 
+  <input type="color" name="favcolor">
+  <br>
+  <br> Επιλογή αρχείου
+  <input type="file" name="file">
+  <br>
+  
+ 
+  <br><br>
+  <input type="submit" value="Submit"> 
+ <input type="reset" value="Reset">  
+  </form>
+  </div>
+</body>
+</html>
